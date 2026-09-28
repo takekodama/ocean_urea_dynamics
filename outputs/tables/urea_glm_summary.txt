@@ -1,0 +1,23 @@
+
+Call:
+glm(formula = log10_Urea ~ log10_NH4 + log10_NOx + temperature, 
+    data = urea_stn)
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.7230586  0.0138730  -52.12   <2e-16 ***
+log10_NH4    0.2804401  0.0082274   34.09   <2e-16 ***
+log10_NOx    0.1961157  0.0056737   34.57   <2e-16 ***
+temperature  0.0226939  0.0005261   43.13   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.4996842)
+
+    Null deviance: 10190.7  on 15328  degrees of freedom
+Residual deviance:  7657.7  on 15325  degrees of freedom
+  (3483 observations deleted due to missingness)
+AIC: 32873
+
+Number of Fisher Scoring iterations: 2
+
